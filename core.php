@@ -7,8 +7,8 @@ $navigation = "template/navigation.php";
 // Tempalte Meta Data
 $meta_top = "template/meta/meta-top.php";
 $meta_bot = "template/meta/meta-bot.php";
-$og_fb_img = 'template/og/facebook.png';
-$og_twitter_img = 'template/og/twitter.png';
+$og_fb_img = 'https://supportaction.org/template/og/facebook.png';
+$og_twitter_img = 'https://supportaction.org/template/og/twitter.png';
 
 // JS
 $asset_js = 'assets/scripts.js';

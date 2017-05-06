@@ -16,7 +16,7 @@ $site_email = '';
 $rss_feed_url = '';
 
 // Google Analytics
-$ga_code = '';
+$ga_code = 'UA-98638235-1';
 
 // Social Meida
 $faebook_page_url = '';

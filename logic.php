@@ -41,7 +41,9 @@ $website = array(
     'https://www.rescue.org',
     'http://nooneleft.org',
     'https://www.urbanjustice.org',
-    'https://www.runforsomething.net'
+    'https://www.runforsomething.net',
+    'https://www.womensmarch.com',
+    'https://www.aclu.org'
 );
 
 $random_url = array_rand($website);

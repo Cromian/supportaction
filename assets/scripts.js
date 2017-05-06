@@ -1,7 +1,12 @@
 $(document).ready(function() {
-
-	$('#random-link').click(function(){
-		location.reload(true);
+	
+	$("#random-link").click(function(){
+		$('#refresh-link').click();
+	});
+	
+	//Refresh Link
+	$("#refresh-link").click(function(){
+		location.reload();
 	});
 
 	//Footer Date

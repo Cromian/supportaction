@@ -26,7 +26,11 @@ a {
     }
 }
 
-
+#random-link-well {
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
 
 .btn {
     @include border-radius(4px);
@@ -38,8 +42,7 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
     text-transform: uppercase;
-    margin-top: 2em;
-    margin-bottom: 2em;
+
     margin-left: auto;
     margin-right: auto;
 
@@ -62,4 +65,8 @@ a {
 .legal {
     font-size: small;
     text-transform: uppercase;
+}
+
+.hide {
+    display: none;
 }

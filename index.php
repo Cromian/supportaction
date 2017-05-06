@@ -1,5 +1,4 @@
 <?php include('config.php') ?>
-<?php include('logic.php'); ?>
 
 <!DOCTYPE HTML>
 <html>
@@ -21,7 +20,13 @@
 
         <a href="/" class="logo"></a>
         <p>Discover a website that promotes progressive action.</p>
-        <a href="<?php echo $url_to_display; ?>" id="random-link" class="btn" target="self">Find Progress</a>
+        <span id="random-link-well">
+          
+          <?php include('logic.php'); ?>
+          <a href="<?php echo $url_to_display; ?>" class="btn" id="random-link" target="self">Find Progress</a>
+          <span class="hide"><a href="#" id="refresh-link">Refresh</a></span>
+
+        </span>
 
         <p>Send a <a href="<?php echo $twitter_page_url; ?>">tweet</a> to add your site.</p>
 
