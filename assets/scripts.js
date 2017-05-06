@@ -1,13 +1,9 @@
 $(document).ready(function() {
-	//jQuery Smooth Jump Scroll
-	$('a').click(function(){
-	    $('html, body').animate({
-	        scrollTop: $( $.attr(this, 'href') ).offset().top
-	    }, 500);
-	    return false;
+
+	$('#random-link').click(function(){
+		location.reload(true);
 	});
 
-	
 	//Footer Date
 	$("#footer-date").text( (new Date).getFullYear() );
 

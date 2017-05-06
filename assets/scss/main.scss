@@ -1,7 +1,65 @@
 // main.scss
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+@import 'https://fonts.googleapis.com/css?family=Quicksand:400,500';
 @import "sapling/_sapling.scss";
 @import "colors.scss";
 @import "mixins.scss";
-@import "form.scss";
 @import "hacks.scss";
+
+html, body {
+    @include font-base;
+    background-color: $light_blue;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+a {
+    color: $blue;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+
+.btn {
+    @include border-radius(4px);
+    display: block;
+    background-color: $red;
+    width: 200px;
+    font-size: large;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:hover {
+        background-color: $red-hover;
+        text-decoration: none;
+    }
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 193px;
+    background: url('../logo.png');
+    background-size: 100%;
+    margin-top: 10vh;
+}
+
+.legal {
+    font-size: small;
+    text-transform: uppercase;
+}

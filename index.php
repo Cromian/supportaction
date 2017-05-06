@@ -1,4 +1,5 @@
 <?php include('config.php') ?>
+<?php include('logic.php'); ?>
 
 <!DOCTYPE HTML>
 <html>
@@ -16,7 +17,15 @@
   <div class="ban_1">
 
     <div class="row">
-      <div class="col-12"></div>
+      <div class="col-12">
+
+        <a href="/" class="logo"></a>
+        <p>Discover a website that promotes progressive action.</p>
+        <a href="<?php echo $url_to_display; ?>" id="random-link" class="btn" target="self">Find Progress</a>
+
+        <p>Send a <a href="<?php echo $twitter_page_url; ?>">tweet</a> to add your site.</p>
+
+      </div>
     </div>
   </div>
 

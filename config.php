@@ -3,9 +3,9 @@
 include_once('core.php');
 
 //Site Title & Meta
-$site_title = "";
-$site_description = "";
-$site_keywords = 'Site Keywords';
+$site_title = 'Support Action';
+$site_description = 'Discover new websites that promoting progressive action.';
+$site_keywords = '';
 
 //Open Graph
 $site_url = '';
@@ -20,7 +20,7 @@ $ga_code = '';
 
 // Social Meida
 $faebook_page_url = '';
-$twitter_page_url = '';
+$twitter_page_url = 'https://twitter.com/supportactorg';
 $medium_page_url = '';
 
 //Links
